@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.text-center{
+    text-align: center !important;
+}
+
+#container {
+    text-align: center;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 20px !important;
+  }

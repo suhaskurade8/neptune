@@ -1,0 +1,26 @@
+<!-- Profession details -->
+<div class="container">
+    <h2 class="text-center">Professional details</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>#</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let details of _professionalDetails;let i=index">
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{details.field}}</td>
+                <td>{{details.data}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Buttons -->
+<div id="container">
+    <button type="button" class="btn btn-default" routerLink="/home">Go to home page</button>
+    <button type="button" class="btn btn-default" routerLink="/personnal-section">See personnal details</button>
+</div>
